@@ -15,9 +15,9 @@ iteam.forEach(function(btn) {
             else input.innerHTML = '0';
 
         } else if (btn.innerHTML == '=') {
-            input.innerHTML = eval(input.innerHTML);
+            input.innerHTML = eval(input.innerHTML); // đây không dùng dòng này thì code sử lý cộng trừ nhân chia kiểu j 
+
         } else input.innerHTML += btn.innerHTML;
     })
-
 
 })
